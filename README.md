@@ -46,3 +46,7 @@ Winter to summer: <br>
 More in "adhoc" folder. <br>
 There is also script "cyclegan_adhoc_one_img_translate.py" but not used here. You can translate one particular image. <br>
 
+### Conclusions
+After almost 2 days of learning, we managed to train a model that in acceptably way translates images from 2 domains: from summer to winter and winter to summer. Due to hardware limitations (GTX 1050 laptop graphics), the images are small (128x128) and show imperfections. After all, you can see that CycleGAN is trying to translate images well.
+<br>
+The suggestion is to use better GANs like StyleGAN or AUGAN. However, they require much better hardware resources (generally VRAM).

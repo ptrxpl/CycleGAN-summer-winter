@@ -27,4 +27,4 @@ The training lasted from August 16 (23:00) to August 19 (20:45) 2022 - non-stop.
 - the model is saved every 2 epochs (40 saved models, AtoB and with BtoA)
 
 ### Selected model
-The model from iteration 89364 (epoch 44) was chosen because it provides the best results according to screenshots. The final epochs showed dA close to or equal to zero - the failure to teach these epochs.
+The model from iteration 105612 (epoch 52) was chosen because it provides the best results according to screenshots. The final epochs showed dA close to or equal to zero - the failure to teach these epochs.

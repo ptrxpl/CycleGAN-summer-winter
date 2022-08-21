@@ -21,6 +21,7 @@ CycleGAN with summer-winter dataset, trained on GTX 1050 (laptop). <br>
 The training lasted from August 16 (23:00) to August 19 (20:45) 2022 - non-stop. <br>
 162480 iterations were performed (summer data was 2031), so 80 epochs were run. <br>
 To run scripts, you need to generate .npz files with generate_npz_file.py script (they are not uploaded here because of size - over 100 MB). <br>
+If you can't run scripts because of missing .dlls (NVIDIA users, don't know how does it work with AMD users) - check if you have CUDA installed - https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-windows
 
 ### What changed in the script:
 - size 128x128 images - before generate .npz file, use "resize_script.py" in repo augan-summer-winter/datasets/bdd100k

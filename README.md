@@ -25,3 +25,6 @@ The training lasted from August 16 (23:00) to August 19 (20:45) 2022 - non-stop.
 - size 128x128 images
 - "Next, we can define a function that will create the 9-resnet block version for 256 × 256 input images. This can easily be changed to the 6-resnet block version by setting image_shape to (128x128x3) and n_resnet function argument to 6 . "
 - the model is saved every 2 epochs (40 saved models, AtoB and with BtoA)
+
+### Selected model
+The model from iteration 89364 (epoch 44) was chosen because it provides the best results according to screenshots. The final epochs showed dA close to or equal to zero - the failure to teach these epochs.

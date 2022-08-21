@@ -43,4 +43,6 @@ Winter to summer: <br>
 ![Winter to summer](https://github.com/ptrxpl/cyclegan-summer-winter/blob/main/adhoc/BtoA/2.png "Winter to summer") <br>
 ![Winter to summer](https://github.com/ptrxpl/cyclegan-summer-winter/blob/main/adhoc/BtoA/4.png "Winter to summer") <br>
 <br>
-More in "adhoc" folder.
+More in "adhoc" folder. <br>
+There is also script "cyclegan_adhoc_one_img_translate.py" but not used here. You can translate one particular image. <br>
+

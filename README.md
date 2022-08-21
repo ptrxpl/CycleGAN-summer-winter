@@ -17,7 +17,7 @@ Matplotlib version: <br>
 3.5.3 <br>
 
 ### General information
-CycleGAN has been tested for dataset summer-winter, on GTX 1050 (laptop). <br>
+CycleGAN with summer-winter dataset, trained on GTX 1050 (laptop). <br>
 The training lasted from August 16 (23:00) to August 19 (20:45) 2022 - non-stop. <br>
 162480 iterations were performed (summer data was 2031), so 80 epochs were run. <br>
 

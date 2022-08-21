@@ -23,7 +23,7 @@ The training lasted from August 16 (23:00) to August 19 (20:45) 2022 - non-stop.
 To run scripts, you need to generate .npz files with generate_npz_file.py script (they are not uploaded here because of size - over 100 MB). <br>
 
 ### What changed in the script:
-- size 128x128 images
+- size 128x128 images - before generate .npz file, use "resize_script.py" in repo augan-summer-winter/datasets/bdd100k
 - "Next, we can define a function that will create the 9-resnet block version for 256 × 256 input images. This can easily be changed to the 6-resnet block version by setting image_shape to (128x128x3) and n_resnet function argument to 6 . "
 - the model is saved every 2 epochs (40 saved models, AtoB and with BtoA)
 

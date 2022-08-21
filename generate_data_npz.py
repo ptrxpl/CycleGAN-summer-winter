@@ -22,18 +22,18 @@ def load_images(path, size=(128,128)):
 path = "augan-summer-winter-master/datasets/bdd100k/" 
  
 # load dataset A
-dataA = load_images(path + 'trainA/resized_128/') # added "resized/", changed from dataA1 to dataA
-# dataA2 = load_images(path + 'testA/resized/') # added "resized/"
+# dataA = load_images(path + 'trainA/resized_128/') # added "resized/", changed from dataA1 to dataA
+dataA = load_images(path + 'testA/resized/') # added "resized/"
 # dataA = vstack((dataA1, dataA2))
 print('Loaded dataA: ', dataA.shape)
 
 # load dataset B
-dataB = load_images(path + 'trainB/resized_128/') # added "resized/", changed from dataB1 to dataB
-# dataB2 = load_images(path + 'testB/resized/') # added "resized/"
+#dataB = load_images(path + 'trainB/resized_128/') # added "resized/", changed from dataB1 to dataB
+dataB = load_images(path + 'testB/resized/') # added "resized/"
 # dataB = vstack((dataB1, dataB2))
 print('Loaded dataB: ', dataB.shape)
 
 # save as compressed numpy array
-filename = 'summer2winter_128_train.npz'
+filename = 'summer2winter_128_test.npz'
 savez_compressed(filename, dataA, dataB)
 print('Saved dataset: ', filename)

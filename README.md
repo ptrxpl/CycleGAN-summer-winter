@@ -4,6 +4,18 @@
 Source: https://machinelearningmastery.com/cyclegan-tutorial-with-keras/ <br>
 Dataset: https://github.com/ptrxpl/augan-summer-winter/tree/master/datasets/bdd100k
 
+### Versions
+Script packages_version.py
+
+Python version: <br>
+3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] <br>
+Numpy version: <br>
+1.23.2 <br>
+Tensorflow version: <br>
+2.9.1 <br>
+Matplotlib version: <br>
+3.5.3 <br>
+
 ### General information
 CycleGAN has been tested for dataset summer-winter, on GTX 1050 (laptop). <br>
 The training lasted from August 16 (23:00) to August 19 (20:45) 2022 - non-stop. <br>

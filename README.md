@@ -35,11 +35,11 @@ Additionally, quoting (from source website): <br>
 ### cyclegan_adhoc_img_translate.py
 After training and picked model (from visual assessment of files in AtoB generated and BtoA generated folders), this script generated images ad hoc:<br>
 Summer to winter: <br>
-![Alt text](http://full/path/to/img.jpg "Optional title") <br>
-![Alt text](http://full/path/to/img.jpg "Optional title") <br>
+![Summer to winter](https://github.com/ptrxpl/cyclegan-summer-winter/blob/main/adhoc/AtoB/5.png "Summer to winter") <br>
+![Summer to winter](https://github.com/ptrxpl/cyclegan-summer-winter/blob/main/adhoc/AtoB/2.png "Summer to winter") <br>
 <br>
 Winter to summer: <br>
-![Alt text](http://full/path/to/img.jpg "Optional title") <br>
-![Alt text](http://full/path/to/img.jpg "Optional title") <br>
+![Winter to summer](https://github.com/ptrxpl/cyclegan-summer-winter/blob/main/adhoc/BtoA/2.png "Winter to summer") <br>
+![Winter to summer](https://github.com/ptrxpl/cyclegan-summer-winter/blob/main/adhoc/BtoA/4.png "Winter to summer") <br>
 <br>
 More in "adhoc" folder.
